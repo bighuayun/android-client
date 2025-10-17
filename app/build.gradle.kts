@@ -5,8 +5,8 @@ plugins {
 }
 
 if (hasGoogleServicesJson) {
-    apply(plugin = "com.google.gms.google-services")
-    apply(plugin = "com.google.firebase.crashlytics")
+//   apply(plugin = "com.google.gms.google-services")
+//    apply(plugin = "com.google.firebase.crashlytics")
 }
 
 fun getPropertyOrEnv(propertyName: String, envName: String = propertyName): String? {
