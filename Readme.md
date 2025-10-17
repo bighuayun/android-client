@@ -40,7 +40,7 @@ The NetBird Android client allows connections from mobile devices running Androi
   <img src="https://github.com/netbirdio/android-client/assets/7756831/d3ce7c74-aa1e-4be0-ba0c-4761432171e4" alt="mainscreen" width="250"/>
 </p>
 
-## Install
+## Install code 
 You can download and install the app from the Google Play Store:
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=io.netbird.client)
