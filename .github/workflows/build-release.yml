@@ -19,8 +19,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-
+          # submodules: recursive
+          submodules: false          # ① 不拉旧 SHA
+      - name: Sync and update submodules
+        run: |
+          git submodule sync           # ② 让 .gitmodules 新 URL 生效
+          git submodule update --init --remote  # ③ 拉取 fork 的最新 HEAD
+          
       - name: Get version
         id: version
         run: |
